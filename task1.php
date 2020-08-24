@@ -1,12 +1,9 @@
 <?php
 function sum($max) {
-    $result = 0;
-    for($i = 1; $i <= $max; $i++) {
-        $result += $i;
-    }
+    $result = $max * 2;
     
-    return $result * 2;
+    return $result;
 }
 
-echo sum(5);
+echo sum(3);
 ?>
